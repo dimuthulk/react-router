@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 8%;
+  width: 100%;
+}
+
+.navbar ul{
+  padding: 10px 30px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 0 10px;
+  color: #000;
+}
+
+.navbar button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar button:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
+}
+.navbar button:focus{
+  outline: none;
+}
+.navbar button:active{
+  transform: scale(0.95);
+}
+.navbar button:disabled{
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.navbar button:disabled:hover{
+  background-color: #ccc;
+  color: #000;
+  transition: none;
+}
+.navbar button:disabled:active{
+  transform: none;
+}
+.navbar button:disabled:focus{
+  outline: none;
+}
+.navbar button:disabled:focus-visible{
+  outline: none;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.container h1{
+  font-size: 70px;
+  font-weight: 500;
+  color: #000;
+}
+

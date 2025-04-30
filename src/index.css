@@ -18,6 +18,7 @@ a{
   width: 100%;
 }
 
+
 .navbar ul{
   padding: 10px 30px;
   border-radius: 30px;
@@ -118,4 +119,28 @@ a.active{
   color: inherit;
   padding: 10px;
   background-color: #e8e9e7;
+}
+
+.job-details{
+  padding: 50px 10px;
+  background-color: #e7e9e6;
+}
+
+.job-details p{
+  max-width: 800px;
+  padding: 10px 0;
+}
+
+.job-details button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.job-details button:hover{
+  background-color: #fff;
+  color: #000;
+  transition: all 0.3s ease;
 }

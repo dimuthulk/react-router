@@ -28,7 +28,10 @@ a{
   list-style: none;
   display: inline-block;
   margin: 0 10px;
-  color: #000;
+}
+
+a.active{
+  color: #e41414;
 }
 
 .navbar button{
@@ -81,5 +84,23 @@ a{
   font-size: 70px;
   font-weight: 500;
   color: #000;
+}
+
+
+.contact-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  gap: 20px;
+}
+
+.contact-buttons button{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
 }
 

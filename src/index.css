@@ -104,3 +104,18 @@ a.active{
   cursor: pointer;
 }
 
+.jobs{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  gap: 20px;
+}
+
+.jobs a{
+  flex:1;
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+  background-color: #e8e9e7;
+}

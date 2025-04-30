@@ -1,0 +1,44 @@
+{
+    "jobs": [
+        {
+            "title": "Software Engineer",
+            "company": "Tech Solutions",
+            "location": "New York, NY",
+            "description": "Develop and maintain web applications using modern technologies.",
+            "salary": 90000,
+            "datePosted": "2023-10-01"
+        },
+        {
+            "title": "Data Analyst",
+            "company": "Data Insights",
+            "location": "San Francisco, CA",
+            "description": "Analyze data sets to provide actionable insights.",
+            "salary": 80000,
+            "datePosted": "2023-09-15"
+        },
+        {
+            "title": "Project Manager",
+            "company": "Global Projects",
+            "location": "Remote",
+            "description": "Lead project teams to deliver projects on time and within budget.",
+            "salary": 95000,
+            "datePosted": "2023-08-20"
+        },
+        {
+            "title": "UX Designer",
+            "company": "Creative Agency",
+            "location": "Los Angeles, CA",
+            "description": "Design user-friendly interfaces and improve user experience.",
+            "salary": 85000,
+            "datePosted": "2023-07-10"
+        },
+        {
+            "title": "DevOps Engineer",
+            "company": "Cloud Services",
+            "location": "Austin, TX",
+            "description": "Implement and manage CI/CD pipelines and cloud infrastructure.",
+            "salary": 100000,
+            "datePosted": "2023-06-05"
+        }
+    ]
+}

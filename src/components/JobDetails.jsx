@@ -1,5 +1,6 @@
 import React from 'react'
 import { useLoaderData } from 'react-router-dom'
+import { useParams } from 'react-router-dom';
 
 const JobDetails = () => {
 
@@ -19,11 +20,11 @@ const JobDetails = () => {
 
 export default JobDetails
 
-export const jobsDetailsLoader = async ({ params }) => {
+export const jobsDetailsLoader = async ({params}) => {
     const { id } = params;
-    const res = await fetch(`http://localhost:5000/jobs/` + id);
+    const res = await fetch(`http://localhost:3000/jobs/`+id);
     if (!res.ok) {
-        throw Error('Could not find that job')
+        throw Error('Could not find that job');
     }
     return res.json();
-}
+};

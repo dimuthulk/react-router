@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../assets/ecsc_logo.png'
-import { Link, NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate } from 'react-router-dom'
 
 function Navbar() {
 
